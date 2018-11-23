@@ -17,7 +17,7 @@ public class TestCalculadora {
 
 	@Test
 	public void TestSubtracao() {
-		assertEquals(10, Calculadora.subtrair(17, 10));
+		assertEquals(10, Calculadora.subtrair(17, 7));
 		assertEquals(0, Calculadora.subtrair(250, 250));
 	}
 }
